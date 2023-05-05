@@ -3,7 +3,10 @@ import Home from './Home';
 import About from './About';
 import Skills from './Skills';
 import Contact from './Contact';
-
+// import {HashLink} from 'react-router-hash-link'
+import { Link } from 'react-router-dom';
+// import {Link} from 'react-scroll';
+import { Route , Routes } from 'react-router-dom';
 const Navbar = () => {
   return (
     <div>
@@ -16,12 +19,12 @@ const Navbar = () => {
           <li>
             <About/>
           </li>
-          <li>
+          <Link >
             <Skills/>
-          </li>
-          <li>
+          </Link>
+          <Link to = 'Contpage'>
             <Contact/>
-          </li>
+          </Link>
         </ul>
       </nav>
     </div>
