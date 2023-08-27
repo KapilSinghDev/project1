@@ -1,6 +1,6 @@
-import WorkIm from '../assets/projects/workImg.jpeg'
-import RealEst from '../assets/projects/realestate.jpg'
+
 import project from '../assets/projects/project-one.png'
+import soon from '../assets/projects/commingsoon.png'
 export const data=[
     {
         id:1,
@@ -11,22 +11,22 @@ export const data=[
     },
     {
         id:2,
-        name:"React JS Application",
-        image:RealEst,
+        name:" Coming soon",
+        image:soon,
         github:"",
         live:"",
     },
     {
         id:3,
-        name:"React JS Application",
-        image:WorkIm,
+        name:" Coming soon",
+        image:soon,
         github:"",
         live:"",
     },
     {
         id:4,
-        name:"React JS Application",
-        image:RealEst,
+        name:"Coming soon",
+        image:soon,
         github:"",
         live:"",
     },
